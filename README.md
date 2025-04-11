@@ -4,3 +4,5 @@ Proyek ini merupakan implementasi pipeline lengkap untuk klasifikasi sentimen ul
 
 ## Struktur Proyek
 
+Submission_jadi/ ├── Scrapping_Data.ipynb # Proses pengambilan data dari internet ├── preprocessed_efootball_reviews.csv # Data hasil preprocessing ├── df_efootball.csv # Data mentah ├── Modelling.ipynb # Pelatihan model dengan berbagai skema ├── Inference.ipynb # Pengujian model dengan data baru ├── requirements.txt # Daftar dependensi
+
