@@ -4,5 +4,41 @@ Proyek ini merupakan implementasi pipeline lengkap untuk klasifikasi sentimen ul
 
 ## Struktur Proyek
 
-Submission_jadi/ ├── Scrapping_Data.ipynb # Proses pengambilan data dari internet ├── preprocessed_efootball_reviews.csv # Data hasil preprocessing ├── df_efootball.csv # Data mentah ├── Modelling.ipynb # Pelatihan model dengan berbagai skema ├── Inference.ipynb # Pengujian model dengan data baru ├── requirements.txt # Daftar dependensi
+├── Scrapping_Data.ipynb           
+├── preprocessed_efootball_reviews.csv 
+├── df_efootball.csv                 
+├── Modelling.ipynb                
+├── Inference.ipynb                  
+├── requirements.txt                 
 
+
+## Fitur Proyek
+
+- **Scraping Data:** Mengambil 32.000 ulasan berbahasa Inggris dari Playstore.
+- **Preprocessing:** Melakukan pembersihan teks, stopword removal, mengatasi slangword, lemmatization, dan tokenisasi.
+- **Ekstraksi Fitur:** Menggunakan TF-IDF dan embedding untuk representasi vektor teks.
+- **Modeling:**
+  - CNN + Embedding
+  - SVM + TF-IDF
+  - Random Forest + TF-IDF
+- **Evaluasi Model:** Skema pembagian data 80/20
+
+## Cara Menjalankan
+
+1. Clone repositori ini:
+
+   ```bash
+   git clone https://github.com/username/nama-repo.git
+   cd nama-repo
+
+2. Install Dependensi:
+
+   pip install -r requirements.txt
+
+3. Jalankan notebook sesuai urutan:
+    - Scrapping_Data.ipynb
+    - Modelling.ipynb
+    - Inference.ipynb
+  
+**amdzz**
+Proyek ini dibuat sebagai bagian dari eksplorasi pribadi di bidang NLP dan Machine Learning.
